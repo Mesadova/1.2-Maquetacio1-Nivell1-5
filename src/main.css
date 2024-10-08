@@ -11,14 +11,8 @@
 
 .spaceWhite {
   display: block;
-  content: '';;
+  content: '';
   height: 100px;
-}
-
-
-.main {
-  width: 100%;
-  place-items: center;
 }
 
 p, body, button, h1{ 
@@ -63,6 +57,7 @@ button {
   max-height: 81%;
   background-color: blue;
 }
+
 .circle3 {
   height: 560px;
   width: 560px;
@@ -74,25 +69,6 @@ button {
   background-color: blue;
 }
 
-.rectangle3 {
-  height: 380px;
-  width: 990px;
-  top: 23.87%;
-  left: -19%;
-  max-width: 70%;
-  max-height: 81%;
-  background-color: blue;
-}
-.circle1 {
-  height: 560px;
-  width: 560px;
-  top: 64%;
-  left: 33%;
-  max-width: 59%;
-  max-height: 55%;
-  border-radius: 50%;
-  background-color: blue;
-}
 .rectangle1 {
   height: 380px;
   width: 590px;
@@ -102,71 +78,12 @@ button {
   max-height: 99%;
   background-color: blue;
 }
-.circle2 {
-  height: 500px;
-  width: 500px;
-  top: 5%;
-  right: 29%;
-  max-width: 55%;
-  max-height: 55%;
-  border-radius: 50%;
-  background-color: blue;
-}
-.rectangle2 {
-  height: 380px;
-  width: 590px;
-  top: 23%;
-  right: 55%;
-  max-width: 110%;
-  max-height: 98.8%;
-  background-color: blue;
-}
 
 .img-hero {
   height: 100%;
   max-width: 100%;
   display: block;
   margin: auto;
-}
-
-
-/* Small */
-@media (max-width: 575.98px) {
-  .circle {
-    height: 560px;
-    width: 560px;
-    top: 49.9%;
-    left: 20%;
-    max-width: 59%;
-    max-height: 55%;
-    border-radius: 50%;
-    background-color: blue;
-  }
-
-  .rectangle {
-    height: 380px;
-    width: 390px;
-    top: 23.87%;
-    left: 50%;
-    max-width: 50%;
-    max-height: 81%;
-    background-color: blue;
-  }
-
-  .secondary {
-    padding-top: 50px;
-    margin-left: 30px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    display: block;
-  }
-
-  .p {
-    justify-content: center;
-    text-justify: center;
-    text-align: center;
-  }
 }
 
 .navbar-toggler-icon-custom {
@@ -243,25 +160,6 @@ svg:hover {
   color: black !important;
 }
 
-.footer-bottom {
-  background-color: #1f1f2b;
-  padding: 20px 0;
-  text-align: center;
-}
-.footer-bottom a {
-  color: #a9a9b7;
-  margin: 0 15px;
-}
-.cta-section {
-  background-color: #4A61E0;
-  padding: 40px 0;
-  text-align: center;
-  color: #fff;
-}
-.cta-section input[type="email"] {
-  max-width: 300px;
-  margin-right: 10px;
-}
 .btn-custom {
   background-color: #FF4B60;
   color: #fff;
